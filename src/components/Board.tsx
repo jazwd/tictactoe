@@ -26,7 +26,7 @@ export function Board({ dimension, currentPlayer, playerMove, isGameOver }: Boar
   }
 
   return (
-    <div className="grid gap-4 mt-10" style={{ gridTemplateColumns: `repeat(${dimension}, 1fr)`, gridTemplateRows: `repeat(${dimension}, 1fr)` }}>
+    <div className="grid gap-4 mt-5" style={{ gridTemplateColumns: `repeat(${dimension}, 1fr)`, gridTemplateRows: `repeat(${dimension}, 1fr)` }}>
       {cells}
     </div>
   );
